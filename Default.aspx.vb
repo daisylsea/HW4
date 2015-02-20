@@ -23,6 +23,8 @@ Partial Class _Default
 
         'Display the results in the results Label Web Control
         lbl_result.Text = "Your net pay for the week is $" & netPay.ToString("##,###.##")
+
+
     End Sub
 
     Protected Sub btn_clear_Click(sender As Object, e As EventArgs) Handles btn_clear.Click
